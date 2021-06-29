@@ -1,2 +1,2 @@
-# GraphicalGraphEvalulator
-Graphical Graph Evalulator' 
+# GraphicalGraphEvaluator
+Graphical Graph Evaluator' 
