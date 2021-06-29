@@ -171,7 +171,9 @@ namespace ArdeshirV.Applications.GraphicalGraphEvaluator
 Download: https://icon-icons.com/icon/dots-internet-keypad-login-password-pattern-security/127097",
 Resources.Dots)})},
 				new ArdeshirV.Forms.License[] { 
-					new ArdeshirV.Forms.License(name, GlobalResouces.Licenses.GPLLicense, GlobalResouces.Licenses.GPLLicenseLogo)
+					new ArdeshirV.Forms.License(name,
+                        GlobalResouces.Licenses.GPLLicense,
+                        GlobalResouces.Licenses.GPLLicenseLogo)
 				},
 				new Donations[] { new Donations(name, _donations) },
 				"https://ArdeshirV.github.io/GraphicalGraphEvaluator/", "ArdeshirV@protonmail.com"
