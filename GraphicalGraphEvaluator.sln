@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 5.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicalGraphEvaluator", "GraphicalGraphEvaluator.csproj", "{9B406B43-4C4F-4EC9-BCCD-81410D92139F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Saeed|Any CPU = Saeed|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B406B43-4C4F-4EC9-BCCD-81410D92139F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B406B43-4C4F-4EC9-BCCD-81410D92139F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B406B43-4C4F-4EC9-BCCD-81410D92139F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B406B43-4C4F-4EC9-BCCD-81410D92139F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B406B43-4C4F-4EC9-BCCD-81410D92139F}.Saeed|Any CPU.ActiveCfg = Saeed|Any CPU
+		{9B406B43-4C4F-4EC9-BCCD-81410D92139F}.Saeed|Any CPU.Build.0 = Saeed|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
