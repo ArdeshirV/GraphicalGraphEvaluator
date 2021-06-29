@@ -10,6 +10,7 @@ using System.Collections;
 using System.Windows.Forms;
 using System.ComponentModel;
 using ArdeshirV.Applications.GraphicalGraphEvaluator;
+using ArdeshirV.Applications.GraphicalGraphEvaluator.Properties;
 
 #endregion	
 //-----------------------------------------------------------------------------
@@ -158,9 +159,17 @@ namespace ArdeshirV.Applications.GraphicalGraphEvaluator
 			FormAboutData data = new FormAboutData(this,
 				new Copyright[] { new Copyright((object)this, Icon.ToBitmap()) },
 				new Credits[] { new Credits(name,
-					new Credit[] { new Credit("ArdeshirV", "'Graphical Graph Evalulator' is developed by ArdeshirV about 2002 and then presented in github in 2021 with few changes about modern interface and a new license.", 
-						GlobalResouces.AuthorsPhotos.ArdeshirV) }
-				)},
+					new Credit[] { new Credit("ArdeshirV", 
+"'Graphical Graph Evalulator' is developed by ArdeshirV about 2002 and then " +
+"presented in github in 2021 with few changes about modern interface and a new license.",
+						GlobalResouces.AuthorsPhotos.ArdeshirV),
+						new Credit("Kmg Design", 
+@"Copyright(c) and credits about graph icon(*.ico) and image(*.png) in this application belongs to:
+
+  Kmg Design - Free for commercial use
+
+Download: https://icon-icons.com/icon/dots-internet-keypad-login-password-pattern-security/127097",
+Resources.Dots)})},
 				new ArdeshirV.Forms.License[] { 
 					new ArdeshirV.Forms.License(name, GlobalResouces.Licenses.GPLLicense, GlobalResouces.Licenses.GPLLicenseLogo)
 				},
